@@ -355,9 +355,9 @@ Overview
 In this milestone, we implemented the cart functionality by creating a schema to store products in the cart and an API endpoint to handle product storage.
 
 Tasks Completed
-✅ Created a Cart Schema to store product details.
-✅ Developed an API Endpoint to receive and store products in the cart.
-✅ Integrated the cart functionality with the backend.
+Created a Cart Schema to store product details.
+Developed an API Endpoint to receive and store products in the cart.
+Integrated the cart functionality with the backend.
 
 Repository
 The updated code is available in the GitHub repository.
@@ -411,10 +411,10 @@ Address Line 1 & 2
 Zip Code
 Address Type
 🎯 Features
-✅ React-based address form
-✅ Uses state management to store input data
-✅ Navigates to the form when clicking "Add Address" in the profile page
-✅ Submits the form data via API
+✔️React-based address form
+ Uses state management to store input data
+✔️ Navigates to the form when clicking "Add Address" in the profile page
+✔️ Submits the form data via API
 
 📥 Submission
 Code pushed to GitHub
@@ -443,10 +443,10 @@ Overview
 In this milestone, we implemented the Place Order functionality in our e-commerce project. This includes adding a button inside the cart page, creating a select address page, and setting up the backend to handle addresses.
 
 Features Implemented
-✅ Place Order Button: Added inside the cart page, redirects to the select address page.
-✅ Select Address Page: Displays all saved addresses and allows the user to choose a delivery address.
-✅ Backend API for Addresses: Created an endpoint to fetch user addresses.
-✅ Order Schema: Defined the schema for storing order details in MongoDB.
+✔️ Place Order Button: Added inside the cart page, redirects to the select address page.
+✔️ Select Address Page: Displays all saved addresses and allows the user to choose a delivery address.
+✔️ Backend API for Addresses: Created an endpoint to fetch user addresses.
+✔️ Order Schema: Defined the schema for storing order details in MongoDB.
 
 Steps Completed
 Added a "Place Order" button inside the cart page.
@@ -454,9 +454,9 @@ Created a select address page with all saved addresses.
 Developed a backend API to retrieve user addresses.
 Defined a MongoDB schema to store order details.
 Submission Details
-Code pushed to GitHub ✅
-Repository is publicly accessible ✅
-README updated ✅
+Code pushed to GitHub ✔️
+Repository is publicly accessible ✔️
+README updated ✔️
 =======
 
 
@@ -467,10 +467,10 @@ Overview
 In this milestone, we implemented the Order Confirmation Page, where users can review their order details before finalizing the purchase.
 
 Key Features
-✅ Display all the ordered products.
-✅ Show the selected delivery address.
-✅ Calculate and display the total price of the cart.
-✅ Provide a "Place Order" button to confirm the purchase.
+✔️ Display all the ordered products.
+✔️ Show the selected delivery address.
+✔️ Calculate and display the total price of the cart.
+✔️ Provide a "Place Order" button to confirm the purchase.
 
 Implementation Steps
 1️⃣ Fetch and display ordered products.
