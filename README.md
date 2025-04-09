@@ -1,39 +1,67 @@
-#### Milestone 1: Initialize Project Repository  
+#ECommerce-Follow-Along
+##Milestone 1: Project Overview to summarize what was covered in the session.
 
-This milestone focused on setting up the GitHub repository to serve as the central hub for the e-commerce project's development. By creating the repository and initializing it with a README file, the project gained a clear starting point with version control, ensuring organization and collaboration as the development progresses.
+##Project Overview
 
-#### Milestone 2: Project Setup and Login Page 
-This milestone focused on establishing the foundational structure and core functionalities of the project. 
+This project will guide you through building a full-stack e-commerce web application using the MERN stack (MongoDB, Express.js, React.js, Node.js). You will learn how to implement key functionalities such as user authentication, product management, and order handling while gaining hands-on experience with REST APIs, database schema design, and frontend development with React.
 
-Key tasks included:
-1. *Structuring the Project:* Created a clear folder hierarchy to organize frontend and backend components efficiently.
-2. *Frontend Setup:* Initialized a React app and configured Tailwind CSS for streamlined styling.
-3. *Backend Setup:* Built a Node.js server to handle API requests and backend logic.
-4. *Development Tools:* Integrated optional extensions to enhance productivity.
-5. *Login Page:* Designed and developed a functional, styled login page as the first user-facing feature of the application.
 
-#### Milestone 3: Backend Structure and Server Setup  
+###Key Features
 
-This milestone focused on setting up the backend infrastructure and establishing a robust foundation for server-side operations. 
+-  User Authentication: login and registration with JWT.
 
-Key tasks included:  
-1. *Organizing Backend Files:* Created a structured hierarchy for routes, controllers, models, middleware, and utilities to ensure scalability and maintainability.  
-2. *Server Setup:* Built a backend server using Node.js and Express, configured to listen on a designated port.  
-3. *Database Integration:* Connected MongoDB for efficient data storage and verified the connection between the server and database.  
-4. *Error Handling:* Implemented clear error messages to enhance debugging and provide better feedback for users.  
+-  Product Management: CRUD operations for products, with features like filtering and sorting.
 
-This milestone establishes a functional backend and prepares the project for future development.  
+-  Order Handling: Users can place and view orders.
 
-#### Milestone 4: User Management and File Upload  
+-  REST API: Build scalable API endpoints for managing users, products, and orders.
 
-This milestone focuses on implementing user data handling and file upload functionality. 
+-  Frontend: Responsive UI built with React for a smooth user experience.
 
-Key achievements include:  
-1. *User Model:* Defined a blueprint for storing user data in the database, ensuring a consistent structure for user-related information.  
-2. *User Controller:* Developed logic to manage user operations such as adding new users and retrieving user information.  
-3. *File Upload Setup:* Integrated and configured Multer to enable file uploads (e.g., user profile images) and store them efficiently in the application.  
 
-By completing this milestone, the application now supports user management and file uploads, enhancing its core functionality.  
+###Technologies Used :
+
+-  Frontend: React.js, Tailwind CSS
+
+-  Backend: Node.js, Express.js
+
+-  Database: MongoDB
+
+## Milestone 2 : Project Setup and Login Page
+-  Create a structured folder hierarchy for the project.
+-  Set up a React app for the frontend.
+-  Set up a Node.js server for the backend.
+-  Using Tailwind CSS for streamlined styling.
+-  Adding optional extensions for improving development efficiency.
+-  Built a styled Login Page for the frontend.
+
+## Milestone 3: Backend Setup and Database Integration  
+ 
+-  **Created folders:**  config,controller,db,middleware,model,utils.
+-  Created .env in config, which is used to store environmental variables in a node.js application.
+
+- Made an Errorhandler.js in utils
+
+-  Created auth.js, catchAsyncErrors.js, error.js in middlewares
+
+- **MongoDB Connection:** Configure Mongoose, store credentials in `.env`.  
+
+-  Set up server.js and App.js in the backend folder.
+
+- In db made Database.js which is responsible for connecting your backend to MongoDB using Mongoose.
+
+## Milesstone 4: User Management and File Uploads with Multer
+
+- **Created a User Model:** Defined user schema with required fields.  
+- **Developed User Controllers:**  
+  - `createUser`: Handles user registration and saves user data.  
+  - `getUsers`: Retrieves all registered users.  
+- **Set Up Multer for File Uploads:** Configured middleware to handle image uploads.  
+- **Created Routes for User Management:**  
+  - `POST /users`: Register a new user with profile image upload.  
+  - `GET /users`: Fetch all users from the database.  
+- **Updated Error Handling:** Improved error handling with `ErrorHandler` and `catchAsyncErrors`.  
+- **Tested Endpoints:** Verified functionality using Postman.  
 
 #### Milestone 5: Signup page and Validation  
 
