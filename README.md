@@ -1,4 +1,5 @@
-#ECommerce-Follow-Along
+#ECommerce-Follow-Along 
+
 ##Milestone 1: Project Overview to summarize what was covered in the session.
 
 ##Project Overview
